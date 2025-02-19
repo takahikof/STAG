@@ -13,6 +13,6 @@ While existing parameter-efficient fine-tuning (PEFT) of 3D point cloud Transfor
 | Point-PEFT | 0.77M | 13.66 | 13.2 | 80.3 |
 | PPT | 1.04M | 9.42 | 13.5 | 80.7 |
 | PointGST | 0.62M | 5.59 | 3.6 | 80.7 |
-| STAG-std | 0.43M | 2.59 | 2.0 | 81.2 |
-| STAG-sl | 1.02M | 3.10 | 3.0 | 81.7 |
+| STAG-std (standard size) | 0.43M | 2.59 | 2.0 | 81.2 |
+| STAG-sl (slightly large size) | 1.02M | 3.10 | 3.0 | 81.7 |
 * Pre-trained model: Point-MAE, batch size: 32, hardware configuration: Intel Core i7-14700KF CPU and NVIDIA RTX 6000 Ada GPU
