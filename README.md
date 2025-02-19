@@ -1,4 +1,15 @@
 # Token Adaptation via Side Graph Convolution for Temporally and Spatially Efficient Fine-tuning of 3D Point Cloud Transformers 🦌
 Takahiko Furuya (University of Yamanashi)
 # Abstract
-While existing Parameter-efficient fine-tuning of 3D point cloud Transformers attempt to minimize the number of tunable parameters, they still suffer from high temporal and spatial computational costs. This paper proposes a novel PEFT algorithm for 3D point cloud Transformers, called Side Token Adaptation on a neighborhood Graph (STAG), to achieve superior temporal and spatial efficiency. 
+While existing parameter-efficient fine-tuning (PEFT) of 3D point cloud Transformers attempt to minimize the number of tunable parameters, they still suffer from high temporal and spatial computational costs during fine-tuning. This paper proposes a novel PEFT algorithm called Side Token Adaptation on a neighborhood Graph (STAG) to improve temporal and spatial efficiency. The classification accuracy is evaluated on the proposed benchmark called PCC13, which consists of 13 publicly available labeled 3D point cloud datasets.
+| Algorithms | # of tunable parameters | time per epoch [s] | VRAM consumption [GB] | Accuracy [%] on PCC13 |
+|:-------|--------:|--------:|--------:|--------:|
+| Full fine-tuning | 22.09M | 4.29 | 6.1| 80.8 |
+| IDPT | 1.70M | 5.43 | 6.6 | 80.2 |
+| DAPT | 1.09M | 3.57 | 4.7 | 80.6 |
+| Point-PEFT | 0.77M | 13.66 | 13.2 | 80.3 |
+| PPT | 1.04M | 9.42 | 13.5 | 80.7 |
+| PointGST | 0.62M | 5.59 | 3.6 | 80.7 |
+| STAG-std | 0.43M | 2.59 | 2.0 | 81.2 |
+| STAG-sl | 1.02M | 3.10 | 3.0 | 81.7 |
+* Pre-trained model: Point-MAE, batch size: 32, measured on a PC with Intel Core i7-14700KF CPU and NVIDIA RTX 6000 Ada
