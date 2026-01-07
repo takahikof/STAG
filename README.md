@@ -1,4 +1,4 @@
-# Token Adaptation via Side Graph Convolution for Temporally and Spatially Efficient Fine-tuning of 3D Point Cloud Transformers 
+# Token Adaptation via Side Graph Convolution for Temporally and Spatially Efficient Fine-tuning of 3D Point Cloud Transformers 🦌
 Takahiko Furuya (University of Yamanashi)
 
 Currently under review. Code will be released after being accepted.
