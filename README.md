@@ -29,10 +29,10 @@ See [DATASET.md](DATASET.md) for details.
 ## Pre-trained parameters
 See [PARAM.md](PARAM.md) for details.
 
-# Fine-tuning
-Once the dataset and pretrained parameters are fully prepared, you can proceed to the fine-tuning experiments.
+# Fine-tuning evaluation using PCC13 benchmark
+Once the dataset and pre-trained parameters are fully prepared, you can proceed to the fine-tuning experiments.
 
-## Full fine-tuning using PCC13 benchmark 
+## [Baseline] Full fine-tuning
 Full fine-tuning, which finetunes all parameters within the DNN, serves as the baseline method.
 ```
 # Point-MAE
@@ -50,8 +50,8 @@ cd FullFinetuning/Uni3D/
 ./Run_finetune.sh
 ```
 
-## Efficient fine-tuning by STAG using PCC13 benchmark 
-Depending on the script file you run, you can switch between STAG-std and STAG-sl.
+## [Proposed] Efficient fine-tuning by STAG
+Depending on the script file you run, you can choose STAG-std or STAG-sl.
 ```
 # Point-MAE
 cd STAG/Point-MAE/
