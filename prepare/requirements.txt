@@ -1,0 +1,12 @@
+argparse==1.1
+easydict==1.13
+h5py==3.11.0
+matplotlib==3.8.0
+Pyyaml==6.0.1
+tensorboardX==2.6.2.2
+timm==0.4.5
+tqdm==4.66.1
+transforms3d==0.4.1
+termcolor==2.4.0
+torchinfo==1.8.0
+ftfy==6.2.3
