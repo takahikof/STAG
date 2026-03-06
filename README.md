@@ -1,7 +1,7 @@
 # Token Adaptation via Side Graph Convolution for Temporally and Spatially Efficient Fine-tuning of 3D Point Cloud Transformers 🦌
 Takahiko Furuya (University of Yamanashi)
 
-Currently under review. Code will be released after being accepted.
+Accepted to the journal of Machine Vision and Applications ([arXiv version](https://arxiv.org/abs/2502.14142)).
 
 # Abstract
 While existing parameter-efficient fine-tuning (PEFT) of 3D point cloud Transformers attempt to minimize the number of tunable parameters, they still suffer from high temporal and spatial computational costs during fine-tuning. This paper proposes a novel PEFT algorithm called Side Token Adaptation on a neighborhood Graph (STAG) to improve temporal and spatial efficiency. This paper also proposes a benchmark called PCC13, which consists of 13 publicly available labeled 3D point cloud datasets, to enable comprehensive evaluation with diverse point cloud data.
@@ -30,7 +30,7 @@ See [DATASET.md](DATASET.md) for details.
 See [PARAM.md](PARAM.md) for details.
 
 # Fine-tuning evaluation using PCC13 benchmark
-Once the dataset and pre-trained parameters are fully prepared, you can proceed to the fine-tuning experiments.
+Once the datasets and pre-trained parameters are fully prepared, you can proceed to the fine-tuning experiments.
 
 ## [Baseline] Full fine-tuning
 Full fine-tuning, which finetunes all parameters within the DNN, serves as the baseline method.
