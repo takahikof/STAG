@@ -1,4 +1,4 @@
-# Token Adaptation via Side Graph Convolution for Temporally and Spatially Efficient Fine-tuning of 3D Point Cloud Transformers 🦌
+# Token Adaptation via Graph Convolutional Side Network for Efficient Fine-tuning of 3D Point Cloud Transformers 🦌
 Takahiko Furuya (University of Yamanashi)
 
 Accepted to the journal of Machine Vision and Applications ([arXiv version](https://arxiv.org/abs/2502.14142)).
@@ -51,7 +51,7 @@ cd FullFinetuning/Uni3D/
 ```
 
 ## [Proposed] Efficient fine-tuning by STAG
-Depending on the script file you run, you can choose STAG-std or STAG-sl.
+Depending on the script file you run, you can choose STAG-std (standard size) or STAG-sl (slightly large size).
 ```
 # Point-MAE
 cd STAG/Point-MAE/
