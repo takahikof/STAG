@@ -1,0 +1,5 @@
+NAME: ModelNet
+DATA_PATH: ../../data/ModelNet/modelnet40_preprocessed
+N_POINTS: 1024
+NUM_CATEGORY: 10
+USE_NORMALS: FALSE
