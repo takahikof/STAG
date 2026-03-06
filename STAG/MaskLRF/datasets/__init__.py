@@ -1,0 +1,15 @@
+from .build import build_dataset_from_cfg
+import datasets.ShapeNet55Dataset
+import datasets.ShapeNet55withnormalDataset
+import datasets.ModelNetDataset
+import datasets.ModelNetDatasetFewShot
+import datasets.ScanObjectNNDataset
+import datasets.OmniObject3DDataset
+import datasets.MCB_BDataset
+import datasets.ESTATEDataset
+import datasets.FG3DDataset
+import datasets.SH15_NonrigidDataset
+import datasets.MVPNetDataset
+import datasets.ObjaverseLvisDataset
+import datasets.Grocery100Dataset
+import datasets.PartNormalDataset
